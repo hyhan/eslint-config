@@ -42,7 +42,14 @@
     "yaml-eslint-parser": "0.5.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
     "@hyhan/eslint-config": "link:.",
-    "eslint": "8.13.0"
+    "eslint": "8.13.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.8"
+  },
+  "lint-staged": {
+    "*.{js,ts,md,json}": "eslint --fix"
   }
 }
