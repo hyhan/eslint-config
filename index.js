@@ -24,5 +24,6 @@ module.exports = {
   ],
   rules: {
     'no-console': 'off',
+    'antfu/if-newline': 'off',
   },
 }
