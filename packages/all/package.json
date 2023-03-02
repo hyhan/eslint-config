@@ -1,0 +1,37 @@
+{
+  "name": "@hyhan/eslint-config",
+  "version": "2.0.0",
+  "description": "Hanhui's ESLint config",
+  "author": "hanhui <hanhui858@gmail.com> (https://github.com/hyhan)",
+  "license": "MIT",
+  "homepage": "https://github.com/hyhan/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@hyhan/eslint-config-vue": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsonc": "^2.6.0",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-unicorn": "^45.0.2",
+    "eslint-plugin-vue": "^9.9.0",
+    "eslint-plugin-yml": "^1.5.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
