@@ -16,6 +16,14 @@ importers:
       rimraf: 4.1.2
       typescript: 4.9.5
 
+  fixtures:
+    specifiers:
+      eslint: ^8.34.0
+      typescript: ^4.9.5
+    devDependencies:
+      eslint: 8.34.0
+      typescript: 4.9.5
+
   packages/all:
     specifiers:
       '@hyhan/eslint-config-vue': workspace:*
